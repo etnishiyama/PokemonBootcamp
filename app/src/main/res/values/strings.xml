@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">PokemonBootcamp</string>
+    <string name="no_pokemons_captured">Você ainda não capturou nenhum Pokémon :(</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_about">Sobre</string>
+    <string name="about_the_app">Inatel Bootcamp - Desenvolvendo seu primeiro aplicativo Android\n\nSerão abordados conceitos básicos de computação em nuvem através de infraestrutura como serviço de apoia à IoT. O aluno verá como executar funções computacionais na nuvem, independentes de servidor, com capacidades de telecomunicações, tais como envio de SMS. Serão utilizados os serviços de AWS gateway, AWS Lambda, AWS Push Notifications. Durante a prática, o aulo terá a chance de criar um sistema em nuvem capaz de acatar uma requisição gerada localmente no próprio computador do laboratório, para então desencadear o envio de SMS a telefones celulares.</string>
+
+    <!-- Login fragment -->
+    <string name="tv_username">Nome de usuário</string>
+    <string name="tv_password">Senha</string>
+    <string name="tv_create_new_account">Criar nova conta de usuário</string>
+    <string name="bt_login">Login</string>
+    <string name="toast_credentials_not_valid">Nome de usuário e/ou senha inválidos</string>
+
+    <!-- New Account fragment -->
+    <string name="tv_name">Nome</string>
+    <string name="tv_email">E-mail</string>
+    <string name="button_create_account">Criar conta</string>
+    <string name="toolbar_new_account">Cadastro de novo usuário</string>
+    <string name="toast_user_created_successfully">Novo usuário criado com sucesso</string>
+
+    <!-- general -->
+    <string name="network_problem">Problema na conexão com o servidor</string>
+    <string name="tv_loading">Carregando...</string>
+
+    <!-- drawer menu -->
+    <string name="drawer_my_pokemons">Meus Pokémons</string>
+    <string name="drawer_pokemons">Todos os Pokémons</string>
+    <string name="drawer_logout">Sair do aplicativo</string>
+
+    <!-- Capture new pokemon -->
+    <string name="toast_pokemon_captured">Pokémon capturado com sucesso!</string>
+    <string name="button_open_camera">Abrir câmera</string>
+    <string name="advertise_camera_permission">Utilize o botão acima para capturar novos Pokémons.\n Para capturar você precisa de permissão para utilizar a câmera.</string>
+
+    <!-- Pokemon details -->
+    <string name="details_name">Nome:</string>
+    <string name="details_weight">Peso:</string>
+    <string name="details_types">Tipo:</string>
+    <string name="details_number">Número:</string>
+    <string name="details_stats">Habilidades:</string>
+    <string name="details_stats_hp">Vida:</string>
+    <string name="details_stats_speed">Velocidade:</string>
+    <string name="details_stats_attack">Ataque:</string>
+    <string name="details_stats_defense">Defesa:</string>
+    <string name="details_stats_special_attack">Ataque especial:</string>
+    <string name="details_stats_special_defense">Defesa especial:</string>
+
+</resources>

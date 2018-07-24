@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shared_preference_api_token" translatable="false">pref_key_api_token</string>
+</resources>
