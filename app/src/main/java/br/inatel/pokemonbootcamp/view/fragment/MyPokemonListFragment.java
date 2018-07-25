@@ -64,7 +64,7 @@ public class MyPokemonListFragment extends Fragment {
     mMyPokemonListController.getPokemonListSubject().subscribe(pokemons -> mPokemonListAdapter
         .setPokemonList(pokemons));
     mMyPokemonListController.loadPokemons();
-    //setupFab();
+    setupFab();
 
     return mBinding.getRoot();
   }
@@ -74,8 +74,8 @@ public class MyPokemonListFragment extends Fragment {
     mPokemonListAdapter.setPokemonListNavigator(pokemonListNavigator);
   }
 
-  /*private void setupFab() {
+  private void setupFab() {
     FloatingActionButton fab = mBinding.fab;
     fab.setOnClickListener(view -> mPokemonListNavigator.onCaptureNewPokemonClicked());
-  }*/
+  }
 }

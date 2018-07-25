@@ -67,6 +67,12 @@ public class PokemonListAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     holder.getBinding().alarmStationCardView.setOnClickListener(view ->
         mPokemonListNavigator.onPokemonClicked(pokemon));
+
+    Picasso.with(mContext)
+        .load(pokemon.getPicture())
+        .fit()
+        .centerCrop()
+        .into(holder.getBinding().imageView2);
   }
 
   @Override
